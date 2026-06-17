@@ -270,15 +270,15 @@ $$d_{A/kk} = \\frac{M_A}{29}$$
   * **Dung dịch chưa bão hòa:** là dung dịch có thể hòa tan thêm chất tan.
   * **Dung dịch bão hòa:** là dung dịch không thể hòa tan thêm chất tan được nữa.
 
-### 2. Độ tan của một chất trong nước ($S$)
-Độ tan ($S$) của một chất trong nước là số gam chất đó hòa tan trong $100\\text{ gam}$ nước để tạo thành dung dịch bão hòa ở nhiệt độ và áp suất xác định.
+### 2. Độ tan của một chất trong nước (*S*)
+Độ tan (*S*) của một chất trong nước là số gam chất đó hòa tan trong 100 gam nước để tạo thành dung dịch bão hòa ở nhiệt độ và áp suất xác định.
 > [!IMPORTANT]
 > **Công thức tính độ tan:**
-> $$S = \\frac{m_{ct}}{m_{\\text{nước}}} \\times 100$$
+> *S = (m_ct / m_nước) × 100*
 > * Trong đó:
->   * $S$: Độ tan (g/100 g nước)
->   * $m_{ct}$: Khối lượng chất tan (g)
->   * $m_{\\text{nước}}$: Khối lượng nước dùng làm dung môi (g)
+>   * *S* là Độ tan (g/100 g nước)
+>   * *m_ct* là Khối lượng chất tan (g)
+>   * *m_nước* là Khối lượng nước dùng làm dung môi (g)
 
 * **Ảnh hưởng của nhiệt độ:**
   * Độ tan của hầu hết **chất rắn** tăng khi nhiệt độ tăng.
@@ -287,19 +287,19 @@ $$d_{A/kk} = \\frac{M_A}{29}$$
 
 ### 3. Nồng độ phần trăm ($C\\%$)
 Nồng độ phần trăm cho biết số gam chất tan có trong 100 gam dung dịch.
-$$C\\% = \\frac{m_{ct}}{m_{dd}} \\times 100\\%$$
+*C% = (m_ct / m_dd) × 100%*
 * Trong đó:
-  * $m_{ct}$: Khối lượng chất tan (g)
-  * $m_{dd}$: Khối lượng dung dịch (g) ($m_{dd} = m_{ct} + m_{\\text{dung môi}}$)
+  * *m_ct* là Khối lượng chất tan (g)
+  * *m_dd* là Khối lượng dung dịch (g) (*m_dd = m_ct + m_dungmôi*)
 
-Từ đó ta suy ra: $m_{ct} = \\frac{m_{dd} \\times C\\%}{100}$ và $m_{dd} = \\frac{m_{ct} \\times 100}{C\\%}$
+Từ đó ta suy ra: *m_ct = (m_dd × C%) / 100* và *m_dd = (m_ct × 100) / C%*
 
-### 4. Nồng độ mol ($C_M$)
+### 4. Nồng độ mol (*C_M*)
 Nồng độ mol cho biết số mol chất tan có trong 1 lít dung dịch.
-$$C_M = \\frac{n}{V} \\quad (\\text{mol/L}\\ \\text{hoặc}\\ \\text{M})$$
+*C_M = n / V* (đơn vị: mol/L hoặc M)
 * Trong đó:
-  * $n$: Số mol chất tan (mol)
-  * $V$: Thể tích dung dịch (lít - L)
+  * *n* là Số mol chất tan (mol)
+  * *V* là Thể tích dung dịch (lít - L)
 `
   },
   'toc-do-phan-ung': {
@@ -512,29 +512,29 @@ $$p = \\frac{F}{S}$$
     ],
     contentMarkdown: `
 ### 1. Cấu tạo chung của đòn bẩy
-Đòn bẩy là một thanh cứng có thể quay quanh một trục cố định gọi là **Điểm tựa ($O$)**. Khi chịu tác dụng của lực làm quay, đòn bẩy có thể thay đổi hướng hoặc độ lớn của lực tác dụng.
+Đòn bẩy là một thanh cứng có thể quay quanh một trục cố định gọi là **Điểm tựa (*O*)**. Khi chịu tác dụng của lực làm quay, đòn bẩy có thể thay đổi hướng hoặc độ lớn của lực tác dụng.
 Các điểm đặc trưng:
-* $O$: Điểm tựa.
-* $O_1$: Điểm tác dụng lực cản ($F_1$). Cánh tay đòn tương ứng là $d_1$.
-* $O_2$: Điểm tác dụng lực nâng ($F_2$). Cánh tay đòn tương ứng là $d_2$.
+* *O*: Điểm tựa.
+* *O₁*: Điểm tác dụng lực cản (*F₁*). Cánh tay đòn tương ứng là *d₁*.
+* *O₂*: Điểm tác dụng lực nâng (*F₂*). Cánh tay đòn tương ứng là *d₂*.
 
 ### 2. Phân loại Đòn bẩy theo SGK KHTN 8
-Tùy theo vị trí tương đối giữa điểm tựa $O$ và điểm đặt lực, ta có ba loại đòn bẩy:
+Tùy theo vị trí tương đối giữa điểm tựa *O* và điểm đặt lực, ta có ba loại đòn bẩy:
 
 #### a) Đòn bẩy loại 1
-* **Đặc điểm:** Điểm tựa $O$ nằm trong khoảng giữa hai điểm đặt lực $O_1$ và $O_2$.
+* **Đặc điểm:** Điểm tựa *O* nằm trong khoảng giữa hai điểm đặt lực *O₁* và *O₂*.
 * **Ứng dụng:** Cái kéo, kìm bấm, bập bênh, kìm nhổ đinh.
 * **Tác dụng:** Thay đổi hướng của lực tác dụng (ví dụ ấn tay xuống đòn bẩy nâng vật lên).
 
 #### b) Đòn bẩy loại 2
-* **Đặc điểm:** Điểm tựa $O$ nằm ngoài khoảng giữa hai lực, và lực nâng $F_2$ nằm xa điểm tựa hơn lực cản $F_1$ ($d_2 > d_1$).
+* **Đặc điểm:** Điểm tựa *O* nằm ngoài khoảng giữa hai lực, và lực nâng *F₂* nằm xa điểm tựa hơn lực cản *F₁* (*d₂* > *d₁*).
 * **Ứng dụng:** Xe cút kít, cái khui nắp chai nước ngọt.
-* **Tác dụng:** **Luôn được lợi về lực** vì $d_2 > d_1 \Rightarrow F_2 < F_1$.
+* **Tác dụng:** **Luôn được lợi về lực** vì *d₂* > *d₁* ==> *F₂* < *F₁*.
 
 #### c) Đòn bẩy loại 3 (Đòn bẩy không cho lợi về lực)
-* **Đặc điểm:** Điểm tựa $O$ nằm ngoài khoảng giữa hai lực, và lực nâng $F_2$ nằm gần điểm tựa hơn lực cản $F_1$ ($d_2 < d_1$).
+* **Đặc điểm:** Điểm tựa *O* nằm ngoài khoảng giữa hai lực, và lực nâng *F₂* nằm gần điểm tựa hơn lực cản *F₁* (*d₂* < *d₁*).
 * **Ứng dụng:** Cái nhíp gắp vi sinh, đũa ăn, cần câu cá.
-* **Tác dụng:** Tuy không được lợi về lực ($F_2 > F_1$), nhưng cho ta **lợi về quãng đường di chuyển và tốc độ**.
+* **Tác dụng:** Tuy không được lợi về lực (*F₂* > *F₁*), nhưng cho ta **lợi về quãng đường di chuyển và tốc độ**.
 
 ### 3. Điều kiện cân bằng đòn bẩy
 Đòn bẩy ở trạng thái cân bằng khi momen lực làm quay theo hai chiều triệt tiêu nhau:
