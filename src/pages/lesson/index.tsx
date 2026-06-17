@@ -270,7 +270,13 @@ export default function LessonPage() {
               <h3 className={`text-xs font-extrabold uppercase tracking-widest ${subjectThemes.color} flex items-center gap-1.5`}>
                 <Award className="h-4.5 w-4.5" /> Trọng tâm công thức cần ghi nhớ
               </h3>
-              <BlockMath math={lesson.formulaLatex || lesson.formula} />
+              {(lesson.formulaLatex || lesson.formula).includes('\\') ? (
+                <BlockMath math={lesson.formulaLatex || lesson.formula} />
+              ) : (
+                <div className="text-center font-mono text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 my-3 bg-slate-100/50 dark:bg-slate-900/40 p-3 rounded-xl border border-slate-200/50 dark:border-slate-800/40">
+                  {lesson.formula}
+                </div>
+              )}
             </div>
           )}
 

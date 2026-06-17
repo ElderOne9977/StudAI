@@ -493,8 +493,8 @@ $$p = \\frac{F}{S}$$
     chapterId: 'may-co-don-gian',
     subject: 'physics',
     summary: 'Nguyên lý hoạt động của các loại đòn bẩy lớp 1, 2, 3 và ứng dụng thực tiễn của chúng.',
-    formula: 'F_1 \\cdot d_1 = F_2 \\cdot d_2',
-    formulaLatex: String.raw`F_1 \times d_1 = F_2 \times d_2 \quad \Longrightarrow \quad \frac{F_1}{F_2} = \frac{d_2}{d_1}`,
+    formula: 'F₁ · d₁ = F₂ · d₂ ⟹ F₁/F₂ = d₂/d₁',
+    formulaLatex: 'F₁ · d₁ = F₂ · d₂ ⟹ F₁/F₂ = d₂/d₁',
     calculator: {
       type: 'lever',
       inputs: [
@@ -540,7 +540,7 @@ Tùy theo vị trí tương đối giữa điểm tựa *O* và điểm đặt l
 Đòn bẩy ở trạng thái cân bằng khi momen lực làm quay theo hai chiều triệt tiêu nhau:
 > [!IMPORTANT]
 > **Hệ thức cân bằng:**
-> $F_1 \times d_1 = F_2 \times d_2 \quad \Longrightarrow \quad \frac{F_1}{F_2} = \frac{d_2}{d_1}$
+> F₁ · d₁ = F₂ · d₂ ⟹ F₁/F₂ = d₂/d₁
 `
   },
   'he-tieu-hoa': {
