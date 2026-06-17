@@ -263,43 +263,43 @@ $$d_{A/kk} = \\frac{M_A}{29}$$
       { question: 'Độ tan S của một chất là gì?', answer: 'Là số gam chất đó hòa tan trong 100 gam nước để tạo thành dung dịch bão hòa ở nhiệt độ, áp suất xác định.' },
       { question: 'Tại sao khi trời nóng cá lại hay ngoi lên mặt nước?', answer: 'Vì độ tan của chất khí (oxygen) trong nước giảm đi khi nhiệt độ nước tăng lên.' }
     ],
-    contentMarkdown: `
+    contentMarkdown: String.raw`
 ### 1. Dung dịch bão hòa và chưa bão hòa
 * **Dung dịch** là hỗn hợp đồng nhất của chất tan và dung môi.
 * Ở một nhiệt độ và áp suất xác định:
   * **Dung dịch chưa bão hòa:** là dung dịch có thể hòa tan thêm chất tan.
   * **Dung dịch bão hòa:** là dung dịch không thể hòa tan thêm chất tan được nữa.
 
-### 2. Độ tan của một chất trong nước (*S*)
-Độ tan (*S*) của một chất trong nước là số gam chất đó hòa tan trong 100 gam nước để tạo thành dung dịch bão hòa ở nhiệt độ và áp suất xác định.
+### 2. Độ tan của một chất trong nước ($S$)
+Độ tan ($S$) của một chất trong nước là số gam chất đó hòa tan trong 100 gam nước để tạo thành dung dịch bão hòa ở nhiệt độ và áp suất xác định.
 > [!IMPORTANT]
 > **Công thức tính độ tan:**
-> *S = (m_ct / m_nước) × 100*
+> $S = \frac{m_{ct}}{m_{\text{nước}}} \times 100$
 > * Trong đó:
->   * *S* là Độ tan (g/100 g nước)
->   * *m_ct* là Khối lượng chất tan (g)
->   * *m_nước* là Khối lượng nước dùng làm dung môi (g)
+>   * $S$: Độ tan (g/100 g nước)
+>   * $m_{ct}$: Khối lượng chất tan (g)
+>   * $m_{\text{nước}}$: Khối lượng nước dùng làm dung môi (g)
 
 * **Ảnh hưởng của nhiệt độ:**
   * Độ tan của hầu hết **chất rắn** tăng khi nhiệt độ tăng.
   * Độ tan của hầu hết **chất khí** giảm khi nhiệt độ tăng hoặc áp suất giảm.
   * *Ứng dụng thực tế:* Ngày nắng nóng, cá thường ngoi lên mặt nước để hô hấp vì nồng độ khí oxygen hòa tan giảm do độ tan của nó giảm khi nhiệt độ nước tăng.
 
-### 3. Nồng độ phần trăm ($C\\%$)
+### 3. Nồng độ phần trăm ($C\%$)
 Nồng độ phần trăm cho biết số gam chất tan có trong 100 gam dung dịch.
-*C% = (m_ct / m_dd) × 100%*
+$$C\% = \frac{m_{ct}}{m_{dd}} \times 100\%$$
 * Trong đó:
-  * *m_ct* là Khối lượng chất tan (g)
-  * *m_dd* là Khối lượng dung dịch (g) (*m_dd = m_ct + m_dungmôi*)
+  * $m_{ct}$: Khối lượng chất tan (g)
+  * $m_{dd}$: Khối lượng dung dịch (g) ($m_{dd} = m_{ct} + m_{\text{dung môi}}$)
 
-Từ đó ta suy ra: *m_ct = (m_dd × C%) / 100* và *m_dd = (m_ct × 100) / C%*
+Từ đó ta suy ra: $m_{ct} = \frac{m_{dd} \times C\%}{100}$ và $m_{dd} = \frac{m_{ct} \times 100}{C\%}$
 
-### 4. Nồng độ mol (*C_M*)
+### 4. Nồng độ mol ($C_M$)
 Nồng độ mol cho biết số mol chất tan có trong 1 lít dung dịch.
-*C_M = n / V* (đơn vị: mol/L hoặc M)
+$$C_M = \frac{n}{V} \quad (\text{mol/L}\ \text{hoặc}\ \text{M})$$
 * Trong đó:
-  * *n* là Số mol chất tan (mol)
-  * *V* là Thể tích dung dịch (lít - L)
+  * $n$: Số mol chất tan (mol)
+  * $V$: Thể tích dung dịch (lít - L)
 `
   },
   'toc-do-phan-ung': {
@@ -494,7 +494,7 @@ $$p = \\frac{F}{S}$$
     subject: 'physics',
     summary: 'Nguyên lý hoạt động của các loại đòn bẩy lớp 1, 2, 3 và ứng dụng thực tiễn của chúng.',
     formula: 'F_1 \\cdot d_1 = F_2 \\cdot d_2',
-    formulaLatex: 'F_1 \\cdot d_1 = F_2 \\cdot d_2',
+    formulaLatex: String.raw`F_1 \times d_1 = F_2 \times d_2 \quad \Longrightarrow \quad \frac{F_1}{F_2} = \frac{d_2}{d_1}`,
     calculator: {
       type: 'lever',
       inputs: [
@@ -510,7 +510,7 @@ $$p = \\frac{F}{S}$$
       { question: 'Đòn bẩy loại 1 là gì?', answer: 'Là đòn bẩy có điểm tựa O nằm giữa điểm đặt của F1 và F2 (ví dụ: bập bênh, cái kéo).' },
       { question: 'Đòn bẩy loại nào luôn cho lợi về lực?', answer: 'Đòn bẩy loại 2, vì cánh tay đòn d2 của lực kéo luôn lớn hơn cánh tay đòn d1 của lực cản.' }
     ],
-    contentMarkdown: `
+    contentMarkdown: String.raw`
 ### 1. Cấu tạo chung của đòn bẩy
 Đòn bẩy là một thanh cứng có thể quay quanh một trục cố định gọi là **Điểm tựa (*O*)**. Khi chịu tác dụng của lực làm quay, đòn bẩy có thể thay đổi hướng hoặc độ lớn của lực tác dụng.
 Các điểm đặc trưng:
@@ -540,7 +540,7 @@ Tùy theo vị trí tương đối giữa điểm tựa *O* và điểm đặt l
 Đòn bẩy ở trạng thái cân bằng khi momen lực làm quay theo hai chiều triệt tiêu nhau:
 > [!IMPORTANT]
 > **Hệ thức cân bằng:**
-> $$F_1 \times d_1 = F_2 \times d_2 \quad \Longrightarrow \quad \frac{F_1}{F_2} = \frac{d_2}{d_1}$$
+> $F_1 \times d_1 = F_2 \times d_2 \quad \Longrightarrow \quad \frac{F_1}{F_2} = \frac{d_2}{d_1}$
 `
   },
   'he-tieu-hoa': {

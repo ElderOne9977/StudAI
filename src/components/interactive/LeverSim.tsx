@@ -34,8 +34,25 @@ export const LeverSim: React.FC = () => {
           Mô phỏng Đòn Bẩy & Cân bằng lực
         </h3>
         <p className="text-xs text-slate-400 mt-1">
-          Điều chỉnh Lực (*F*) và Cánh tay đòn (*d*) để làm thăng bằng đòn bẩy. Đạt trạng thái cân bằng khi *F*₁ · *d*₁ = *F*₂ · *d*₂.
+          Điều chỉnh lực tác dụng và khoảng cách của mỗi bên để đạt trạng thái cân bằng.
         </p>
+
+        {/* Premium Tailwind Equilibrium Formula */}
+        <div className="flex items-center gap-3 font-serif text-slate-200 justify-center my-3.5 bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/80">
+          <span className="italic text-xs">F<sub>1</sub> · d<sub>1</sub> = F<sub>2</sub> · d<sub>2</sub></span>
+          <span className="text-slate-500 font-sans text-xs">⇒</span>
+          <div className="flex items-center gap-1.5 font-sans">
+            <div className="flex flex-col items-center text-[10px] font-medium leading-none">
+              <span className="border-b border-slate-650 pb-0.5 px-1">F<sub>1</sub></span>
+              <span className="pt-0.5">F<sub>2</sub></span>
+            </div>
+            <span className="text-xs font-serif">=</span>
+            <div className="flex flex-col items-center text-[10px] font-medium leading-none">
+              <span className="border-b border-slate-650 pb-0.5 px-1">d<sub>2</sub></span>
+              <span className="pt-0.5">d<sub>1</sub></span>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Visual Canvas Area */}
