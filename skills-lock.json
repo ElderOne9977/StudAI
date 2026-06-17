@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "backend-patterns": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/backend-patterns/SKILL.md",
+      "computedHash": "781ce6d7e80bc052e673a1520cb35451a294e7fc98c91a749e3d016b82e1197f"
+    },
+    "browser-use": {
+      "source": "browser-use/browser-use",
+      "sourceType": "github",
+      "skillPath": "skills/browser-use/SKILL.md",
+      "computedHash": "b130d87e00646e85c178a99fa4a90ec576adaa2d7d37935993e9d18e8bdec05a"
+    },
+    "code-reviewer": {
+      "source": "Shubhamsaboo/awesome-llm-apps",
+      "sourceType": "github",
+      "skillPath": "awesome_agent_skills/code-reviewer/SKILL.md",
+      "computedHash": "f98e08f46abb7f1aa0454d9e7d6c8d1ba67ce6ae0e50b1850cfa4d59396b40bd"
+    },
+    "database-migrations": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/database-migrations/SKILL.md",
+      "computedHash": "446cbbd3dbe2b3323202d625cade1bc01ab7af610fc1b08abffc1e4350149943"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "899b84384f74f540ea5284d9b2e9234e050998b42eacc805410b518d4226c0b3"
+    },
+    "error-handling-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+      "computedHash": "61c0f8496afccbc0b9c46cf0878fac064892cb80981eb6b64ebc5892c71cfec7"
+    },
+    "github": {
+      "source": "openclaw/openclaw",
+      "sourceType": "github",
+      "skillPath": "skills/github/SKILL.md",
+      "computedHash": "8532659705fbdc685363fd3da68d64a1ec0bcaf0c7f726b74ab02e144b4a6450"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "computedHash": "792a368e074981d7e3138edb439e138489b2ac247cd1e5739fab52af680fb17b"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "computedHash": "eee144aea35d783296d178017e9fe843c6d16cc8b240e106f5e50910f6caf329"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "computedHash": "b73b59d43c34c3fc225bfae419c458bb216af80df25fc0c545dfa7fd2a161722"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: var(--font-plus-jakarta-sans), sans-serif;
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300;
+  }
+  
+  body.dark {
+    @apply bg-slate-950 text-slate-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-outfit), sans-serif;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full transition-colors;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-700;
+}
+
+/* Glassmorphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .glass {
+    background: #f1f5f9;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .dark .glass {
+    background: #0f172a;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Premium card borders with gradients */
+.glow-card {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.glow-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(90deg, #10b981, #0ea5e9, #f97316);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glow-card:hover::before {
+  opacity: 0.15;
+}
+
+.dark .glow-card:hover::before {
+  opacity: 0.3;
+}
+
+/* Math typesetting rules */
+.math-block {
+  @apply my-4 p-4 rounded-xl bg-slate-100/50 dark:bg-slate-900/50 text-center font-serif text-lg overflow-x-auto select-all border border-slate-200/50 dark:border-slate-800/50;
+}
+
+.math-inline {
+  @apply px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-900 font-serif text-sm select-all inline-block align-middle mx-0.5 border border-slate-200/50 dark:border-slate-800/50;
+}
+
+/* Physics simulator canvas rules */
+.simulator-canvas {
+  @apply w-full bg-slate-900 rounded-2xl overflow-hidden shadow-inner border border-slate-800 relative;
+  aspect-ratio: 16 / 9;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Mindmap node styles */
+.mindmap-node {
+  @apply transition-[transform,colors] duration-300 transform hover:scale-105 active:scale-95 cursor-pointer select-none;
+}
+
+/* Custom interactive active elements */
+.active-glow-chemistry {
+  box-shadow: 0 0 20px rgba(22, 179, 85, 0.4);
+}
+.active-glow-physics {
+  box-shadow: 0 0 20px rgba(14, 149, 233, 0.4);
+}
+.active-glow-biology {
+  box-shadow: 0 0 20px rgba(242, 124, 19, 0.4);
+}
+
+/* Premium Custom Slider Input Range */
+.premium-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, #1e293b, #334155);
+  border-radius: 9999px;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.premium-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: currentColor;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 0 8px currentColor;
+}
+
+.premium-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.25);
+  box-shadow: 0 0 12px currentColor;
+}
+
+.premium-slider::-webkit-slider-thumb:active {
+  transform: scale(1.35);
+  box-shadow: 0 0 16px currentColor;
+}
+
+/* For Firefox */
+.premium-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 50%;
+  background: currentColor;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 0 8px currentColor;
+}
+
+.premium-slider::-moz-range-thumb:hover {
+  transform: scale(1.25);
+  box-shadow: 0 0 12px currentColor;
+}
+
