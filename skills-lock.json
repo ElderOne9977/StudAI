@@ -43,6 +43,12 @@
       "skillPath": "skills/github/SKILL.md",
       "computedHash": "8532659705fbdc685363fd3da68d64a1ec0bcaf0c7f726b74ab02e144b4a6450"
     },
+    "production-audit": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/production-audit/SKILL.md",
+      "computedHash": "5c7ed9392d2dad247420fc48c6aefcb0f3dc165f2c17124c0dd604d2ecfb5855"
+    },
     "systematic-debugging": {
       "source": "obra/superpowers",
       "sourceType": "github",
