@@ -352,8 +352,8 @@ Trong sinh hoạt và sản xuất, con người chủ động điều chỉnh c
     chapterId: 'khoi-luong-rieng-va-ap-suat',
     subject: 'physics',
     summary: 'Định nghĩa khối lượng riêng, đơn vị đo và cách tính toán khi biết khối lượng và thể tích của vật.',
-    formula: 'D = \\frac{m}{V}',
-    formulaLatex: 'D = \\frac{m}{V}',
+    formula: 'D = m / V',
+    formulaLatex: 'D = m / V',
     calculator: {
       type: 'density',
       inputs: [
