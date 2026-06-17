@@ -376,26 +376,26 @@ Trong đời sống, ta thường nói *"sắt nặng hơn nhôm"*. Nói như th
 Khối lượng riêng của một chất là khối lượng của một đơn vị thể tích chất đó.
 > [!IMPORTANT]
 > **Công thức tính khối lượng riêng:**
-> $$D = \\frac{m}{V}$$
+> *D = m / V*
 > * Trong đó:
->   * $D$: Khối lượng riêng (đơn vị: $\\text{kg/m}^3$ hoặc $\\text{g/cm}^3$ hoặc $\\text{g/mL}$)
->   * $m$: Khối lượng của vật ($\\text{kg}$ hoặc $\\text{g}$)
->   * $V$: Thể tích của vật ($\\text{m}^3$ hoặc $\\text{cm}^3$)
+>   * *D* là khối lượng riêng (đơn vị: kg/m³ hoặc g/cm³ hoặc g/mL)
+>   * *m* là khối lượng của vật (kg hoặc g)
+>   * *V* là thể tích của vật (m³ hoặc cm³)
 
 Mối liên hệ giữa các đơn vị:
-$$1\\text{ g/cm}^3 = 1000\\text{ kg/m}^3$$
-$$1\\text{ g/cm}^3 = 1\\text{ g/mL}$$
+*1 g/cm³ = 1000 kg/m³*
+*1 g/cm³ = 1 g/mL*
 
 ### 3. Thí nghiệm tìm hiểu
-1. **Thí nghiệm 1:** Cân 3 thỏi sắt có thể tích tăng dần $V, 2V, 3V$. Ta thấy khối lượng của chúng cũng tăng tương ứng $m, 2m, 3m$, nhưng tỉ số $\\frac{m}{V}$ của chúng luôn **không đổi**.
-2. **Thí nghiệm 2:** Cân 3 thỏi sắt, nhôm, đồng có **cùng thể tích** $V$. Khối lượng đo được là khác nhau ($m_{\\text{đồng}} > m_{\\text{sắt}} > m_{\\text{nhôm}}$). Điều này chứng minh các chất khác nhau có khối lượng riêng khác nhau.
+1. **Thí nghiệm 1:** Cân 3 thỏi sắt có thể tích tăng dần *V*, *2V*, *3V*. Ta thấy khối lượng của chúng cũng tăng tương ứng *m*, *2m*, *3m*, nhưng tỉ số *m / V* của chúng luôn **không đổi**.
+2. **Thí nghiệm 2:** Cân 3 thỏi sắt, nhôm, đồng có **cùng thể tích** *V*. Khối lượng đo được là khác nhau (*m*(đồng) > *m*(sắt) > *m*(nhôm)). Điều này chứng minh các chất khác nhau có khối lượng riêng khác nhau.
 
 ### 4. Khối lượng riêng một số chất thông dụng
-* **Đồng (Cu):** $8,96\\text{ g/cm}^3$ ($8960\\text{ kg/m}^3$)
-* **Sắt (Fe):** $7,8\\text{ g/cm}^3$ ($7800\\text{ kg/m}^3$)
-* **Nhôm (Al):** $2,7\\text{ g/cm}^3$ ($2700\\text{ kg/m}^3$)
-* **Nước nguyên chất:** $1\\text{ g/cm}^3$ ($1000\\text{ kg/m}^3$)
-* **Gỗ tốt:** khoảng $0,8\\text{ g/cm}^3$ ($800\\text{ kg/m}^3$)
+* **Đồng (Cu):** 8,96 g/cm³ (8960 kg/m³)
+* **Sắt (Fe):** 7,8 g/cm³ (7800 kg/m³)
+* **Nhôm (Al):** 2,7 g/cm³ (2700 kg/m³)
+* **Nước nguyên chất:** 1 g/cm³ (1000 kg/m³)
+* **Gỗ tốt:** khoảng 0,8 g/cm³ (800 kg/m³)
 `
   },
   'ap-suat': {

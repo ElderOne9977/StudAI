@@ -211,11 +211,29 @@ const parseInlineMath = (text: string): React.ReactNode => {
   );
 };
 
+// Parse italic formatting: *text*
+const parseItalicText = (text: string): React.ReactNode => {
+  const italicParts = text.split('*');
+  if (italicParts.length === 1) {
+    return text;
+  }
+
+  return (
+    <>
+      {italicParts.map((part, idx) => {
+        const isItalic = idx % 2 !== 0;
+        const key = `italic-${idx}`;
+        return isItalic ? <em key={key} className="italic text-slate-900 dark:text-white font-semibold">{part}</em> : part;
+      })}
+    </>
+  );
+};
+
 // Parse bold formatting: **text**
 const parseBoldText = (text: string): React.ReactNode => {
   const boldParts = text.split('**');
   if (boldParts.length === 1) {
-    return text;
+    return parseItalicText(text);
   }
 
   return (
@@ -223,7 +241,11 @@ const parseBoldText = (text: string): React.ReactNode => {
       {boldParts.map((part, idx) => {
         const isBold = idx % 2 !== 0;
         const key = `bold-${idx}`;
-        return isBold ? <strong key={key} className="font-extrabold text-slate-900 dark:text-white">{part}</strong> : part;
+        return isBold ? (
+          <strong key={key} className="font-extrabold text-slate-900 dark:text-white">{part}</strong>
+        ) : (
+          <React.Fragment key={key}>{parseItalicText(part)}</React.Fragment>
+        );
       })}
     </>
   );
